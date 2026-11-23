@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
-    message: "Student Management API is running on Vercel 🚀",
+    message: "Student Management API is running on local server 🚀",
   });
 });
 
